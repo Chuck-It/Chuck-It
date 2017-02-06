@@ -1,0 +1,34 @@
+{
+  "name": "chuck-it",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha -- --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chuck-It/Chuck-It.git"
+  },
+  "author": "Luke Bonaccorsi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chuck-It/Chuck-It/issues"
+  },
+  "homepage": "https://github.com/Chuck-It/Chuck-It#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bluebird": "^3.4.7",
+    "hapi": "^16.1.0",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "proxyquire": "^1.7.11",
+    "sinon": "^1.17.7"
+  }
+}
